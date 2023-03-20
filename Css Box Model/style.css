@@ -1,0 +1,34 @@
+body{
+    background-color: #a7dbe3;
+    color:white;
+    font-size: 21px;
+}
+h1{
+    font-size: 70px;
+    color:#3747b3;
+}
+p{
+    color:#2f4c5c;
+}
+
+/* The css BOX Model */
+/* 
+margin : empty space around my element
+border : a border/stroke/around  my elemnet
+padding: empty space with background around my element
+
+All of these ADD on top of the width and height!
+*/
+
+.box{
+    background: pink;
+    width: 300px;
+    margin:100px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border:5px solid red;
+    padding:100px;
+
+    /* Total width: 300 + 100 + 100+ 100+100+5 +5 = 710px */
+}
